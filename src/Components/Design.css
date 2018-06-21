@@ -1,0 +1,54 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - -
+List of CSS Design Class
+
+- Text Group
+
+- Button Group
+
+- Background Group
+
+- Image Group
+
+- Forms Group
+
+- Gridview Group
+
+- Dropdown Group
+- - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Text Group */
+
+/* Button Group */
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Background Group */
+
+.backgroundpicture1 { 
+    background: url(https://goo.gl/images/mSVpTc) no-repeat center fixed; 
+    background-size: cover;
+  }
+
+
+/* Image Group */
+
+
+/* Forms Group */
+
+
+/* Gridview Group */
+
+
+/* Dropdown Group */
+

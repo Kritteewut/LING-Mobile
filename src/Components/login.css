@@ -1,0 +1,170 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - -
+List of CSS Design Class
+
+- Text Group
+
+- Button Group
+
+- Background Group
+
+- Image Group
+
+- Forms Group
+
+- Gridview Group
+
+- Dropdown Group
+- - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Text Group */
+
+.textsettingleft {
+    text-align: left;
+}
+
+.textsettingcenter {
+    text-align: center;
+}
+
+/* Button Group */
+
+.buttonLogin {
+    background-color:  rgb(122, 135, 247);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 45%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonLogin:hover {
+    background-color: rgb(48, 61, 179);
+}
+
+.buttonRegister{
+    background-color:  rgba(156, 156, 156, 0.993);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 45%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonRegister:hover {
+    background-color: rgb(252, 118, 118);
+}
+
+.buttonFacebook {
+    background-color:  rgba(112, 123, 230, 0.938);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonFacebook:hover {
+    background-color: rgb(67, 81, 207);
+}
+
+.buttonGoogle{
+    background-color:  rgba(255, 117, 117, 0.993);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonGoogle:hover {
+    background-color: rgb(219, 0, 0);
+}
+
+/* Background Group */
+
+body { 
+    background-image: url("pic1.jpg");
+    background-size: cover;
+
+    background-color: rgba(169, 214, 255, 0.3);
+  }
+
+/* Image Group */
+
+.linglogo {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    height: 100px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 33.5%;
+  }
+
+/* Forms Group */
+
+.logingroup {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+.formsetting {
+    margin: 0px;
+    width: 100%;
+}
+
+/* Gridview Group */
+
+
+/* Dropdown Group */
+
+/* test */
+input {
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  textarea {
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  select {
+    margin-bottom: 1rem;
+    display: block;
+  }

@@ -1,0 +1,25 @@
+{
+  "name": "ling-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "google-map-react": "^1.0.4",
+    "material-ui": "^0.20.1",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-form": "^3.5.5",
+    "react-google-maps": "^9.4.5",
+    "react-multistep": "^3.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-tap-event-plugin": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
