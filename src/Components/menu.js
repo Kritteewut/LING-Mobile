@@ -8,6 +8,8 @@ import LINGUser from './LINGUser.png';
 import IconMenu from './icon Menu.png';
 import IconCancel1 from './icon Cancel 1.png';
 
+
+
 class menu extends Component {
 
     constructor(props) {
@@ -44,8 +46,8 @@ class menu extends Component {
 
                             <div className="Menugroup">
 
-                                <h2> Mr.DemoLING </h2>
-                                <p> LING.example@hotmail.com </p>
+                                <h6 className="headtext1"> Mr.DemoLING </h6>
+                                <p className="text1"> LING.example@hotmail.com </p>
 
                                 <Link to="/">
                                     <button type="button" className="buttonLogout"> Logout </button>
@@ -56,19 +58,19 @@ class menu extends Component {
                             </div>
                             <div className="Tablegroup">
 
-                                <h3> สถานที่ </h3>
+                                <h6 className="headtext2"> สถานที่ </h6>
 
                             </div>
 
                             <div className="Locationgroup">
 
-                                <p> สถานที่จำลอง1 </p>
+                                <p className="text1"> แปลงองุ่น </p>
 
                             </div>
 
                             <div className="Addgroup">
 
-                                <p> สถานที่จำลอง2 </p>
+                                <p className="text1"> สวนยอดอาคาร </p>
 
                             </div>
 

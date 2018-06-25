@@ -44,52 +44,9 @@ List of CSS Design Class
 
 /* Button Group */
 
-.buttonLogout{
-    background-color:  rgba(156, 156, 156, 0.7);
-    border-radius: 5px;
-    border: none;
-    color: white;
-    width: 45%;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    margin-left: 1vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.buttonLogout:hover {
-    background-color: rgba(212, 22, 22, 0.7);
-}
-
-.buttonEditProfile{
-    background-color:  rgba(104, 106, 204, 0.644);
-    border-radius: 5px;
-    border: none;
-    color: white;
-    width: 45%;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    margin-left: 1vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.buttonEditProfile:hover {
-    background-color: rgba(0, 18, 184, 0.7);
-}
-
-
 .iconGPS {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 53px;
+    width: 45px;
     height: auto;
 
     top: 80px;
@@ -111,7 +68,7 @@ List of CSS Design Class
 
 .iconCalendar {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 53px;
+    width: 45px;
     height: auto;
 
     top: 80px;
@@ -133,7 +90,7 @@ List of CSS Design Class
 
 .iconCancel {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 50px;
+    width: 45px;
     height: auto;
 
     top: auto;
@@ -174,10 +131,10 @@ List of CSS Design Class
 
 .iconMenu {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 53px;
+    width: 45px;
     height: auto;
 
-    top: 10px;
+    top: 15px;
     left: auto;
     right: 12px;
     bottom: 0px;
@@ -218,7 +175,7 @@ List of CSS Design Class
 
 .iconCompass {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 53px;
+    width: 45px;
     height: auto;
 
     top: auto;
@@ -241,8 +198,8 @@ List of CSS Design Class
 .iconBackbutton {
     /*animation: App-logo-spin infinite 20s linear;*/
 
-    width: 245px;
-    height: 53px;
+    width: 205px;
+    height: 45px;
 
     top: auto;
     bottom: 40px;
@@ -259,7 +216,7 @@ List of CSS Design Class
 
 .iconLayer1 {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 40px;
+    width: 30px;
     height: auto;
 
     top: auto;
@@ -281,12 +238,12 @@ List of CSS Design Class
 
   .iconLayer2 {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 40px;
+    width: 30px;
     height: auto;
 
     top: auto;
     bottom: 46px;
-    left: 150px;
+    left: 140px;
     right: 0px;
 
     opacity: 0.5;
@@ -303,12 +260,12 @@ List of CSS Design Class
 
 .iconLayer3 {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 40px;
+    width: 30px;
     height: auto;
 
     top: auto;
     bottom: 46px;
-    left: 210px;
+    left: 190px;
     right: 0px;
 
     opacity: 0.5;
@@ -325,12 +282,12 @@ List of CSS Design Class
 
   .iconLayer4 {
     /*animation: App-logo-spin infinite 20s linear;*/
-    width: 40px;
+    width: 30px;
     height: auto;
 
     top: auto;
     bottom: 46px;
-    left: 270px;
+    left: 240px;
     right: 0px;
 
     opacity: 0.5;
@@ -353,63 +310,7 @@ body {
 
 /* Image Group */
 
-.linglogo {
-    /*animation: App-logo-spin infinite 20s linear;*/
-    height: 100px;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: 33.5%;
-
-    /* Layer Group*/
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    cursor: pointer;
-  }
-
-  .LINGUser {
-    /*animation: App-logo-spin infinite 20s linear;*/
-    width: 100px;
-    height: auto;
-
-    top: 70px;
-    left: auto;
-    right: 12px;
-    bottom: 0px;
-
-    opacity: 1;
-
-        /* Layer Group*/
-        position: fixed;
-        z-index: 1;
-        cursor: pointer;
-  }
-
-  .iconCalendar:hover {
-    opacity: 1;
-}
-
 /* Forms Group */
-
-.Menugroup {
-    background-color: rgba(255, 255, 255, 0.65);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 30px;
-
-    width: auto;
-    height: 22vh;
-
-    top: 20%;
-    bottom: auto;
-    left: auto;
-    right: 6vw;
-
-    opacity: 1;
-  }
 
 /* Gridview Group */
 

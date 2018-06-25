@@ -20,10 +20,12 @@ List of CSS Design Class
 
 .textsettingleft {
     text-align: left;
+    font-size: 85%;
 }
 
 .textsettingcenter {
     text-align: center;
+    font-size: 110%;
 }
 
 /* Button Group */
@@ -33,13 +35,18 @@ List of CSS Design Class
     border-radius: 5px;
     border: none;
     color: white;
+
     width: 45%;
-    padding: 15px 32px;
+    height: auto;
+
+    padding: 10px 20px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    
     margin-left: 6vw;
     margin-right: auto;
     margin-top: 10px;
@@ -55,14 +62,20 @@ List of CSS Design Class
     border-radius: 5px;
     border: none;
     color: white;
+
     width: 45%;
-    padding: 15px 32px;
+    height: auto;
+
+    padding: 10px 20px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    
     margin-left: 1vw;
+    margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -77,7 +90,7 @@ List of CSS Design Class
     border: none;
     color: white;
     width: 100%;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -96,7 +109,7 @@ List of CSS Design Class
     border: none;
     color: white;
     width: 100%;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -126,10 +139,16 @@ body {
     margin-bottom: 126px;
     margin-left:auto;
 
-    top: -5vh;
+    display: block;
+
+    top: -10vh;
     bottom: auto;
-    left: auto;
-    right: 37vw;
+    left: 25%;
+    right: 25%;
+
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
   }
 
 /* Forms Group */
@@ -143,7 +162,7 @@ body {
     width: 90vw;
     height: auto;
 
-    top: 20%;
+    top: 17%;
     bottom: auto;
     left: auto;
     right: 5vw;

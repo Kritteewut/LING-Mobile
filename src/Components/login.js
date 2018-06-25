@@ -40,7 +40,7 @@ class login extends Component {
 							</Link>
 							<br />
 
-							<button type="button" className="buttonFacebook"> Login With Facebook </button>
+							<button type="button" className="buttonFacebook" > Login With Facebook </button>
 							<br />
 
 							<button type="button" className="buttonGoogle"> Login with Google </button>
