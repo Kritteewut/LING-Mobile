@@ -1,6 +1,8 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -
 List of CSS Design Class
 
+- Layer Group 
+
 - Text Group
 
 - Button Group
@@ -16,105 +18,336 @@ List of CSS Design Class
 - Dropdown Group
 - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+/* Overlay Group */
+
+.google-map-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    cursor: pointer;
+}
+
 /* Text Group */
-
-.textsettingleft {
-    text-align: left;
-}
-
-.textsettingcenter {
-    text-align: center;
-}
 
 /* Button Group */
 
-.buttonLogin {
-    background-color:  rgb(122, 135, 247);
+.buttonLogout{
+    background-color:  rgba(156, 156, 156, 0.7);
     border-radius: 5px;
     border: none;
     color: white;
     width: 45%;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1vw;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.buttonLogin:hover {
-    background-color: rgb(48, 61, 179);
+.buttonLogout:hover {
+    background-color: rgba(212, 22, 22, 0.7);
 }
 
-.buttonRegister{
-    background-color:  rgba(156, 156, 156, 0.993);
+.buttonEditProfile{
+    background-color:  rgba(104, 106, 204, 0.644);
     border-radius: 5px;
     border: none;
     color: white;
     width: 45%;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 1vw;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.buttonRegister:hover {
-    background-color: rgb(252, 118, 118);
+.buttonEditProfile:hover {
+    background-color: rgba(0, 18, 184, 0.7);
 }
 
-.buttonFacebook {
-    background-color:  rgba(112, 123, 230, 0.938);
-    border-radius: 5px;
-    border: none;
-    color: white;
-    width: 100%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+
+.iconGPS {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 53px;
+    height: auto;
+
+    top: 80px;
+    left: 12px;
+    right: 0px;
+    bottom: 0px;
+
+    opacity: 0.7;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconGPS:hover {
+    opacity: 1;
 }
 
-.buttonFacebook:hover {
-    background-color: rgb(67, 81, 207);
+.iconCalendar {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 53px;
+    height: auto;
+
+    top: 80px;
+    left: auto;
+    right: 12px;
+    bottom: 0px;
+
+    opacity: 0.8;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconCalendar:hover {
+    opacity: 1;
 }
 
-.buttonGoogle{
-    background-color:  rgba(255, 117, 117, 0.993);
-    border-radius: 5px;
-    border: none;
-    color: white;
-    width: 100%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+.iconCancel {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 50px;
+    height: auto;
+
+    top: auto;
+    bottom: 0px;
+    left: 43.7vw;
+    right: auto;
+
+    opacity: 0.85;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 3;
+        cursor: pointer;
+  }
+
+  .iconCancel:hover {
+    opacity: 1;
 }
 
-.buttonGoogle:hover {
-    background-color: rgb(219, 0, 0);
+.iconCancel1 {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 30px;
+    height: auto;
+
+    top: auto;
+    bottom: 0px;
+    left: 43.7vw;
+    right: auto;
+
+    opacity: 0.85;
+
+        /* Layer Group*/
+  }
+
+  .iconCancel:hover {
+    opacity: 1;
+}
+
+.iconMenu {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 53px;
+    height: auto;
+
+    top: 10px;
+    left: auto;
+    right: 12px;
+    bottom: 0px;
+
+    opacity: 0.85;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconTask:hover {
+    opacity: 1;
+}
+
+.iconTask {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 53px;
+    height: auto;
+
+    top: auto;
+    left: auto;
+    right: 45%;
+    bottom: -18px;
+
+    opacity: 0.9;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconMenu:hover {
+    opacity: 1;
+}
+
+.iconCompass {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 53px;
+    height: auto;
+
+    top: auto;
+    bottom: 40px;
+    left: 12px;
+    right: 0px;
+
+    opacity: 0.8;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+.iconCompass:hover {
+    opacity: 1;
+}
+
+.iconBackbutton {
+    /*animation: App-logo-spin infinite 20s linear;*/
+
+    width: 245px;
+    height: 53px;
+
+    top: auto;
+    bottom: 40px;
+    left: 77px;
+    right: 0px;
+
+    opacity: 0.7;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+.iconLayer1 {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 40px;
+    height: auto;
+
+    top: auto;
+    bottom: 46px;
+    left: 90px;
+    right: 0px;
+
+    opacity: 0.5;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+.iconLayer1:hover {
+    opacity: 1;
+}
+
+  .iconLayer2 {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 40px;
+    height: auto;
+
+    top: auto;
+    bottom: 46px;
+    left: 150px;
+    right: 0px;
+
+    opacity: 0.5;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconLayer2:hover {
+    opacity: 1;
+}
+
+.iconLayer3 {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 40px;
+    height: auto;
+
+    top: auto;
+    bottom: 46px;
+    left: 210px;
+    right: 0px;
+
+    opacity: 0.5;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconLayer3:hover {
+    opacity: 1;
+}
+
+  .iconLayer4 {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 40px;
+    height: auto;
+
+    top: auto;
+    bottom: 46px;
+    left: 270px;
+    right: 0px;
+
+    opacity: 0.5;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconLayer4:hover {
+    opacity: 1;
 }
 
 /* Background Group */
 
 body { 
-    background-image: url("pic1.jpg");
-    background-size: cover;
-
     background-color: rgba(169, 214, 255, 0.3);
   }
 
@@ -127,26 +360,56 @@ body {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 33.5%;
+
+    /* Layer Group*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    cursor: pointer;
   }
+
+  .LINGUser {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    width: 100px;
+    height: auto;
+
+    top: 70px;
+    left: auto;
+    right: 12px;
+    bottom: 0px;
+
+    opacity: 1;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
+
+  .iconCalendar:hover {
+    opacity: 1;
+}
 
 /* Forms Group */
 
-.logingroup {
-    background-color: rgb(255, 255, 255);
-    width: 300px;
+.Menugroup {
+    background-color: rgba(255, 255, 255, 0.65);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
     padding: 30px;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-bottom: 40px;
-    margin-left: auto;
-}
 
-.formsetting {
-    margin: 0px;
-    width: 100%;
-}
+    width: auto;
+    height: 22vh;
+
+    top: 20%;
+    bottom: auto;
+    left: auto;
+    right: 6vw;
+
+    opacity: 1;
+  }
 
 /* Gridview Group */
 

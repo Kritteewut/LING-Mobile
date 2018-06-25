@@ -29,7 +29,7 @@ List of CSS Design Class
 /* Button Group */
 
 .buttonContinue {
-    background-color:  rgb(122, 135, 247);
+    background-color:  rgba(122, 135, 247, 0.7);
     border-radius: 5px;
     border: none;
     color: white;
@@ -40,18 +40,18 @@ List of CSS Design Class
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5vw;
+    margin-right: 1vw;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .buttonContinue:hover {
-    background-color: rgb(48, 61, 179);
+    background-color: rgba(48, 61, 179, 0.7);
 }
 
 .buttonCancel{
-    background-color:  rgba(156, 156, 156, 0.993);
+    background-color:  rgba(156, 156, 156, 0.7);
     border-radius: 5px;
     border: none;
     color: white;
@@ -62,13 +62,13 @@ List of CSS Design Class
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 1vw;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .buttonCancel:hover {
-    background-color: rgb(252, 118, 118);
+    background-color: rgba(211, 21, 21, 0.7);
 }
 
 /* Background Group */
@@ -94,16 +94,27 @@ body {
 /* Forms Group */
 
 .registergroup {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.65);
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    padding: 30px;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-left: auto;
-}
+    padding: 15px;
+
+    width: 80vw;
+    height: auto;
+
+    top: 20%;
+    bottom: auto;
+    left: auto;
+    right: 10vw;
+
+    opacity: 1;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
 
 .formsetting {
     margin: 0px;

@@ -29,7 +29,7 @@ List of CSS Design Class
 /* Button Group */
 
 .buttonLogin {
-    background-color:  rgb(122, 135, 247);
+    background-color:  rgba(122, 135, 247, 0.7);
     border-radius: 5px;
     border: none;
     color: white;
@@ -40,18 +40,18 @@ List of CSS Design Class
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 6vw;
+    margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .buttonLogin:hover {
-    background-color: rgb(48, 61, 179);
+    background-color: rgba(23, 38, 172, 0.7);
 }
 
 .buttonRegister{
-    background-color:  rgba(156, 156, 156, 0.993);
+    background-color:  rgba(156, 156, 156, 0.7);
     border-radius: 5px;
     border: none;
     color: white;
@@ -62,17 +62,17 @@ List of CSS Design Class
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 1vw;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .buttonRegister:hover {
-    background-color: rgb(252, 118, 118);
+    background-color: rgba(212, 22, 22, 0.7);
 }
 
 .buttonFacebook {
-    background-color:  rgba(112, 123, 230, 0.938);
+    background-color:  rgba(112, 123, 230, 0.7);
     border-radius: 5px;
     border: none;
     color: white;
@@ -87,11 +87,11 @@ List of CSS Design Class
 }
 
 .buttonFacebook:hover {
-    background-color: rgb(67, 81, 207);
+    background-color: rgba(20, 34, 160, 0.7);
 }
 
 .buttonGoogle{
-    background-color:  rgba(255, 117, 117, 0.993);
+    background-color:  rgba(255, 117, 117, 0.7);
     border-radius: 5px;
     border: none;
     color: white;
@@ -106,16 +106,14 @@ List of CSS Design Class
 }
 
 .buttonGoogle:hover {
-    background-color: rgb(219, 0, 0);
+    background-color: rgba(219, 0, 0, 0.7);
 }
 
 /* Background Group */
 
 body { 
     background-image: url("pic1.jpg");
-    background-size: cover;
-
-    background-color: rgba(169, 214, 255, 0.3);
+    background-size: 150vh,100vw, auto;
   }
 
 /* Image Group */
@@ -123,25 +121,40 @@ body {
 .linglogo {
     /*animation: App-logo-spin infinite 20s linear;*/
     height: 100px;
-    margin-top: auto;
+    margin-top: 70px;
     margin-right: auto;
-    margin-bottom: auto;
-    margin-left: 33.5%;
+    margin-bottom: 126px;
+    margin-left:auto;
+
+    top: -5vh;
+    bottom: auto;
+    left: auto;
+    right: 37vw;
   }
 
 /* Forms Group */
 
 .logingroup {
-    background-color: rgb(255, 255, 255);
-    width: 300px;
+    background-color: rgba(255, 255, 255, 0.65);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    padding: 30px;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-bottom: 40px;
-    margin-left: auto;
-}
+    padding: 20px;
+
+    width: 90vw;
+    height: auto;
+
+    top: 20%;
+    bottom: auto;
+    left: auto;
+    right: 5vw;
+
+    opacity: 1;
+
+        /* Layer Group*/
+        position: fixed;
+        z-index: 1;
+        cursor: pointer;
+  }
 
 .formsetting {
     margin: 0px;

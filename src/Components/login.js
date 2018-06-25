@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import { Switch, Link , Route } from 'react-router-dom';
+import { Switch, Link, Route } from 'react-router-dom';
 import { Form, Text } from 'react-form';
 import logo from './Ling logo.png';
 import './login.css';
 class login extends Component {
 
+	/* Process here */
 
 	render() {
 
 		return (
+
+			/* Form Group */
+
 			<div class="logingroup">
 
 				<img src={logo} className="linglogo" alt="logo" />
