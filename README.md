@@ -15,6 +15,15 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 - npm install --save react-google-maps
 
+- npm install firebase
+
+* npm bootstrap set
+
+  - npm install --save react react-dom
+
+  - npm install --save react-bootstrap
+
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)

@@ -1,0 +1,17 @@
+{
+  "name": "urban3",
+  "version": "1.1.0",
+  "description": "",
+  "type": "overlay",
+  "format": "png",
+  "minzoom": "15",
+  "maxzoom": "20",
+  "scale": "2.000000",
+  "bounds": [
+    102.36706743,
+    15.24288060,
+    102.37456771,
+    15.24909453
+  ],
+  "profile": "mercator"
+}
